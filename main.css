@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head {
+	background-color: red;
+	margin: 0px;
+	padding: 0px;
+	height: 200px;
+	border: thin solid #333;
+	width: 1150px;
+}
+#space1 {
+	background-color: #333;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 1150px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+#body1 {
+	margin: 0px;
+	padding: 0px;
+	height: 513px;
+	width: 1150px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+	text-indent: 6px;
+	color: #FFF;
+        box-shadow: 10px 10px 5px #888888;
+}
+#space2 {
+	height: 20px;
+	width: 1150px;
+	border: 0px none #FFF;
+	background-color: #333;
+}
+#footer {
+	margin: 0px;
+	height: 50px;
+	width: 1147px;
+	border: thin solid #FFF;
+	background-color: #333333;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	left: 97px;
+	top: 775px;
+}
+#body1 #apDiv3 blockquote h3 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#body1 #apDiv3 blockquote p em {
+	font-family: Verdana, Geneva, sans-serif;
+}
+body {
+        background-image: url("background gaming.jpg"); 
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+#apDiv1 {
+	width:176px;
+	height:285px;
+	z-index:1;
+	left: 104px;
+	top: 254px;
+	background-color: #999;
+	text-align: justify;
+	white-space: normal;
+	border: thin none white;
+	position: absolute;
+        box-shadow: 10px 10px 5px #888888;
+}
+#apDiv3 {
+	width:935px;
+	height:485px;
+	z-index:2;
+	left: 306px;
+	top: 255px;
+	border: thin solid white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: 500;
+	font-variant: normal;
+	float: right;
+	padding-top: 5px;
+	padding-left: 5px;
+	text-align: justify;
+	color: black;
+	line-height: 18px;
+	text-indent: 10px;
+	position: absolute;
+        background-image: url("black.jpg"); 
+        box-shadow: 10px 10px 5px #888888;
+        
+}
+#apDiv2 {
+	position:absolute;
+	width:172px;
+	height:140px;
+	z-index:3;
+	left: 205px;
+	top: 610px;
+	border: thick double #FFF;
+}
+#apDiv4 {
+	position:absolute;
+	width:364px;
+	height:262px;
+	z-index:3;
+	left: 700px;
+	top: 34px;
+	border: thin none #FFF;
+}
+#apDiv5 {
+	position:absolute;
+	width:183px;
+	height:179px;
+	border: thin solid #FFF;
+	background-color: #333333;
+	z-index:3;
+	left: 102px;
+	top: 555px;
+        box-shadow: 10px 10px 5px #888888;
+}
+#apDiv6 {
+	width:935px;
+	height:485px;
+	z-index:2;
+	left: 306px;
+	top: 255px;
+	border: thin solid white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: 500;
+	font-variant: normal;
+	float: right;
+	padding-top: 5px;
+	padding-left: 5px;
+	text-align: justify;
+	color: black;
+	line-height: 18px;
+	text-indent: 10px;
+	position: absolute;
+        background-color: #FFF5EE;
+        overflow: scroll;
+        
+}
+a:link {
+	color: pink;
+}
+a:visited { 
+    color: red;
+}
+a:hover { 
+    background-color: white;
+}
+p.one {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+p
+{
+  color: #ECA08B;
+  align: center;
+}
+ul
+{
+  align: center;
+}
+li
+{
+  align: center;
+}
+ol
+{
+  align: center;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: pink;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Simple Pagination</h2>
+<ul class="pagination">
+  <li><a href="#">«</a></li>
+  <li><a href="#">1</a></li>
+  <li><a class="active" href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">6</a></li>
+  <li><a href="#">7</a></li>
+  <li><a href="#">»</a></li>
+</ul>
+
+</style>
+<script language="JavaScript" type="text/javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
+</script>
